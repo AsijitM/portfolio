@@ -18,7 +18,7 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-h-md">
-            Hi, I am Asijit Manna currently in my final year, pursing B.Tech
+            Hi, I am Asijit Manna currently in my final year, pursuing B.Tech
             from SRM University, Chennai. Keenly interested in emerging
             Technologies and I’m looking for an opportunity to gain experience
             in web-development preferably one that involves a lot of client work
