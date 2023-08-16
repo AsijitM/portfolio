@@ -18,11 +18,16 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-h-md">
-            Hi, I am Asijit Manna currently in my final year, pursuing B.Tech
-            from SRM University, Chennai. Keenly interested in emerging
-            Technologies and I’m looking for an opportunity to gain experience
-            in web-development preferably one that involves a lot of client work
-            and project management.
+            Hi, I am{' '}
+            <span className="text-gray-400 font-bold "> Asijit Manna</span>{' '}
+            currently in my final year, pursuing{' '}
+            <span className="text-gray-400 font-bold ">B.Tech</span> from{' '}
+            <span className="text-gray-400 font-bold ">SRM University</span>,
+            Chennai. Keenly interested in emerging Technologies and I’m looking
+            for an opportunity to gain experience in{' '}
+            <span className="text-gray-400 font-bold">web-development </span>
+            preferably one that involves a lot of client work and project
+            management.
           </p>
           <div>
             <Link

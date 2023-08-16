@@ -9,18 +9,26 @@ const Porfolio = () => {
     {
       id: 1,
       src: nextflix,
+      dlink: 'https://netflix-clone-mern-chi.vercel.app/',
+      scode: 'https://github.com/AsijitM/netflix-clone-MERN',
     },
     {
       id: 2,
       src: airstays,
+      dlink: 'https://air-stays.vercel.app/',
+      scode: 'https://github.com/AsijitM/Air_bnb_clone',
     },
     {
       id: 3,
       src: dalle,
+      dlink: 'https://ai-image-generator-dall-e.vercel.app/',
+      scode: 'https://github.com/AsijitM/AI_image_Generator_dall-E',
     },
     {
       id: 4,
       src: minecraft,
+      dlink: 'https://asijitm.github.io/minecraft_three.js/',
+      scode: 'https://github.com/AsijitM/minecraft_three.js',
     },
   ];
   return (
@@ -37,7 +45,7 @@ const Porfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, link, scode }) => (
             <div key={id} className=" shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -45,11 +53,21 @@ const Porfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className=" w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:bg-blue-500 rounded-lg ">
-                  Deployed Link
+                <button className=" w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:bg-blue-500 rounded-lg  ">
+                  <a
+                    class="text-slate-500 hover:text-white after:content-['_↗'] "
+                    href={link}
+                  >
+                    Deployed Link
+                  </a>
                 </button>
                 <button className="px-6 py-3 w-1/2 m-4 duration-200 hover:bg-blue-500 rounded-lg hover:scale-105">
-                  Source Code
+                  <a
+                    class="text-white-400/70 after:content-['_↗'] "
+                    href={scode}
+                  >
+                    Source Code
+                  </a>
                 </button>
               </div>
             </div>
