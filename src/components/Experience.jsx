@@ -64,8 +64,8 @@ const Experience = () => {
     {
       id: 8,
       src: sql,
-      title: 'MongoDB',
-      style: 'shadow-green-400',
+      title: 'MySql',
+      style: 'shadow-blue-400',
     },
     {
       id: 8,

@@ -33,7 +33,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: 'mailto: foo@gmail.com',
+      href: 'mailto: me.asijit@gmail.com',
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: 'resume.com',
+      href: 'https://drive.google.com/file/d/142xbb_DAIQMRkrAtHJMDs1qIZ5_Hinz5/view?usp=sharing',
       style: 'rounded-br-md',
       download: true,
     },
